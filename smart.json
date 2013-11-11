@@ -3,5 +3,6 @@
   "description": "Server-side Klout API Service",
   "author": "THEtheChad <chad.d.elliott@gmail.com>",
   "version": "0.1.0",
+  "git": "https://github.com/THEtheChad/meteor-klout",
   "packages": {}
 }
