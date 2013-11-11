@@ -4,8 +4,8 @@ Package.describe({
 
 Package.on_use(function(api){
   api.use('http', 'server');
-  api.export('Klout');
-  api.add_files('klout.js', 'server');
+  api.export(['Klout']);
+  api.add_files('lib/klout.js', 'server');
 });
 
 Package.on_test(function(api){
